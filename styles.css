@@ -38,6 +38,12 @@ table.header td{
   padding: 12px;
 }
 
+/* Center the image cell in the header table */
+table.header td:first-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .profile{
   width:160px;
   height:160px;
@@ -46,6 +52,8 @@ table.header td{
   border:4px solid rgba(255,255,255,0.12);
   box-shadow: 0 8px 30px rgba(0,0,0,0.6);
   display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 h1{
